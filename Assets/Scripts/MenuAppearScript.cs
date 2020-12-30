@@ -28,6 +28,7 @@ public class MenuAppearScript : MonoBehaviour
             CanvasObject.enabled = !CanvasObject.enabled;
             Time.timeScale = CanvasObject.enabled ? 0 : 1;
             StandaloneInputModule.enabled = !StandaloneInputModule.enabled;
+            EventSystem.enabled = !EventSystem.enabled;
             //QuitGame.enabled = !QuitGame.enabled;
             //ChangeScene.enabled = !ChangeScene.enabled;
            
